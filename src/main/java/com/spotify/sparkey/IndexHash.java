@@ -272,6 +272,7 @@ final class IndexHash {
         return false;
       }
 
+      displacement ++;
       pos += slotSize;
       slot++;
       if (slot == hashCapacity) {
